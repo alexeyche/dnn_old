@@ -8,8 +8,6 @@ import logging
 import numpy as np
 import lib.env as env
 from lib.env import runs_dir, cases_dir, spikes_dir
-import bayesopt
-from bayesopt import ContinuousGaussModel 
 import os
 from os.path import join as pj
 
