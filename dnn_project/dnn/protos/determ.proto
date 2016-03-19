@@ -1,0 +1,8 @@
+package Protos;
+
+import "base.proto";
+
+message DetermC {
+    required double threshold = 1;
+}
+

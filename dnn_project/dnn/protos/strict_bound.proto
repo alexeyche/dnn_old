@@ -1,0 +1,9 @@
+package Protos;
+
+import "base.proto";
+
+message StrictBoundC {
+    required double unit = 1;
+    required double power = 2;
+}
+

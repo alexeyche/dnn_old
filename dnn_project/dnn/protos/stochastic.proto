@@ -1,0 +1,8 @@
+package Protos;
+
+import "base.proto";
+
+message StochasticC {
+    required double prob = 1;
+}
+

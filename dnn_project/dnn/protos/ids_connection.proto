@@ -1,0 +1,8 @@
+package Protos;
+
+import "base.proto";
+
+message IdsConnectionC {
+    repeated string ids = 1;
+}
+

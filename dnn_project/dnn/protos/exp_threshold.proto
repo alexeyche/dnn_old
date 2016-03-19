@@ -1,0 +1,11 @@
+package Protos;
+
+import "base.proto";
+
+message ExpThresholdC {
+    required double amp = 1;
+    required double beta = 2;
+    required double threshold = 3;
+    required double p_rest = 4;
+}
+
